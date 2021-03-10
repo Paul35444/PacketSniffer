@@ -2,3 +2,6 @@
 
 import scapy.all as scapy
 
+def sniff():
+    scapy.sniff()
+
