@@ -7,3 +7,5 @@ def sniff(interface):
                                                                           #prn arg allows call back func to be executed every time packet is captured
 def process_sniffed_packet():
     print(packet)
+
+sniff("eth0") #sniff interface
