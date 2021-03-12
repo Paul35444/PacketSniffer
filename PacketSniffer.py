@@ -16,7 +16,7 @@ def process_sniffed_packet():
 #scapy.Raw will only print the raw layer of the packet no additional info
 #.load will only print load info from raw layer
             load = print(packet[scapy.Raw].load)
-            keywords = [""]
+            keywords = ["username", "user", "login", "password", "pass"]
             if "username" in load:
                 print(load)
 
