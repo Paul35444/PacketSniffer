@@ -16,7 +16,7 @@ def get_login_info(packet):
     if packet.haslayer(scapy.Raw):
 #scapy.Raw will only print the raw layer of the packet no additional info
 #.load will only print load info from raw layer
-        load = print(packet[scapy.Raw].load)
+        load = packet[scapy.Raw].load
         keywords = ["username", "user", "login", "password", "pass"]
         for keyword in keywords:
             if keyword in load:
