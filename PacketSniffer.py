@@ -8,12 +8,13 @@ def sniff(interface):
 #prn arg allows call back func to be executed every time packet is captured
     scapy.sniff(iface=interface, store=False, prn=process_sniffed_packet)
                             
-
+def get_url(packet):
+    return packet[http.HTTPRequest].Host + packet[http.HTTPRequest].Path
 
 def process_sniffed_packet():
 #print only HTTPRequest packets
     if packet.haslayer(http.HTTPRequest):
-        url = packet[http.HTTPRequest].Host + packet[http.HTTPRequest].Path
+        url = get_url(packet)
         print("[+] HTTP Request >> " + url)
 
 #only displaying packets with Raw layer
