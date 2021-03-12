@@ -11,7 +11,8 @@ def sniff(interface):
 def process_sniffed_packet():
 #print only HTTPRequest packets
     if packet.haslayer(http.HTTPRequest):
-        print(packet)
+#packet.show() will display all layers and fields for the packet
+        print(packet.show())
 
- #sniff interface (hardcoded)
+#sniff interface (hardcoded)
 sniff("eth0")
