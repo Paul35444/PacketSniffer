@@ -20,6 +20,7 @@ def process_sniffed_packet():
             for keyword in keywords:
                 if keyword in load:
                     print(load)
+                    break
 
 #sniff interface (hardcoded)
 sniff("eth0")
