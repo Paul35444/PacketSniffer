@@ -20,8 +20,7 @@ def get_login_info(packet):
         keywords = ["username", "user", "login", "password", "pass"]
         for keyword in keywords:
             if keyword in load:
-                print("\n\n[+] Possible username/password >> " + load + "\n\n")
-                break
+                return load
 
 def process_sniffed_packet():
 #print only HTTPRequest packets
