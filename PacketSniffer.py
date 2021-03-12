@@ -13,8 +13,8 @@ def process_sniffed_packet():
     if packet.haslayer(http.HTTPRequest):
 #only displaying packets with Raw layer
         if packet.haslayer(scapy.Raw):
-#packet.show() will display all layers and fields for the packet
-            print(packet.show())
+#scapy.Raw will only print the raw layer of the packet no additional info
+            print(packet[scapy.Raw])
 
 #sniff interface (hardcoded)
 sniff("eth0")
