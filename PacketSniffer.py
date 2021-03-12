@@ -17,8 +17,9 @@ def process_sniffed_packet():
 #.load will only print load info from raw layer
             load = print(packet[scapy.Raw].load)
             keywords = ["username", "user", "login", "password", "pass"]
-            if "username" in load:
-                print(load)
+            for keyword in keywords:
+                if keyword in load:
+                    print(load)
 
 #sniff interface (hardcoded)
 sniff("eth0")
