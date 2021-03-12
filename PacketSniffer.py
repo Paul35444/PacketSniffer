@@ -11,6 +11,8 @@ def sniff(interface):
 def process_sniffed_packet():
 #print only HTTPRequest packets
     if packet.haslayer(http.HTTPRequest):
+        url = packet[http.HTTPREQUEST].Host + packet[http.HTTPREQUEST].Path
+
 #only displaying packets with Raw layer
         if packet.haslayer(scapy.Raw):
 #scapy.Raw will only print the raw layer of the packet no additional info
