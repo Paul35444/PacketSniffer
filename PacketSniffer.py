@@ -30,7 +30,7 @@ def process_sniffed_packet():
 
         login_info = get_login_info(packet)
         if login_info:
-            print("\n\n[+] Possible username/password >> " + load + "\n\n")
+            print("\n\n[+] Possible username/password >> " + login_info + "\n\n")
                    
 #sniff interface (hardcoded)
 sniff("eth0")
