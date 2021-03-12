@@ -14,7 +14,8 @@ def process_sniffed_packet():
 #only displaying packets with Raw layer
         if packet.haslayer(scapy.Raw):
 #scapy.Raw will only print the raw layer of the packet no additional info
-            print(packet[scapy.Raw])
+#.load will only print load info from raw layer
+            print(packet[scapy.Raw].load)
 
 #sniff interface (hardcoded)
 sniff("eth0")
