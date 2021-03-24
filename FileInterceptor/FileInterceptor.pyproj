@@ -2,15 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>7a37848a-9747-425c-8f8b-8983f823efe4</ProjectGuid>
+    <ProjectGuid>976f1e5d-62b3-43c5-8258-6898f33362b6</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>DNS_Spoofer.py</StartupFile>
+    <StartupFile>FileInterceptor.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>DNS_Spoofer</Name>
-    <RootNamespace>DNS_Spoofer</RootNamespace>
+    <Name>FileInterceptor</Name>
+    <RootNamespace>FileInterceptor</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,7 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="DNS_Spoofer.py" />
+    <Compile Include="FileInterceptor.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
