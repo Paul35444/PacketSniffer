@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "FileInterceptor", "FileInterceptor.pyproj", "{976F1E5D-62B3-43C5-8258-6898F33362B6}"
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "FileInterceptor", "FileInterceptor\FileInterceptor.pyproj", "{75FBF1F6-8E8C-4C98-94E1-9A15B09751A2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,13 +11,13 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{976F1E5D-62B3-43C5-8258-6898F33362B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{976F1E5D-62B3-43C5-8258-6898F33362B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75FBF1F6-8E8C-4C98-94E1-9A15B09751A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75FBF1F6-8E8C-4C98-94E1-9A15B09751A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {C3D5BD58-3490-4EF1-B204-DA4DB3AC9C31}
+		SolutionGuid = {A665B212-E8ED-428F-83C1-3BF2C2C7F6C3}
 	EndGlobalSection
 EndGlobal

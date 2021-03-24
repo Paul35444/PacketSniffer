@@ -2,7 +2,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>976f1e5d-62b3-43c5-8258-6898f33362b6</ProjectGuid>
+    <ProjectGuid>75fbf1f6-8e8c-4c98-94e1-9a15b09751a2</ProjectGuid>
     <ProjectHome>.</ProjectHome>
     <StartupFile>FileInterceptor.py</StartupFile>
     <SearchPath>
