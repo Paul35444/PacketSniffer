@@ -2,7 +2,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>81ed9368-a472-49c4-b559-8c6ee5fe79a4</ProjectGuid>
+    <ProjectGuid>f9cbb91e-b560-4f8f-bd29-6109a1f8320d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
     <StartupFile>CodeInjector.py</StartupFile>
     <SearchPath>
